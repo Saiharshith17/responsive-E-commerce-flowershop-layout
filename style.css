@@ -596,13 +596,13 @@ margin:10px;
         bottom:50px;
     }
 }
-@media only screen and (max-width:650px){
+@media only screen and (max-width:450px){
     .products .img{
         widTH:90%;
     }
 
         .cost .head{
-            padding:10px;
+            padding:1px;
         
             font-size:30px;
          
@@ -623,12 +623,12 @@ margin:10px;
             width:100%;
             color:white;
             left:0%;
-            height:100px;
+            height:65px;
            border-radius:5px;
         }
         .products .img:hover .add{
             opacity:1;
-            bottom:100px;
+            bottom:65px;
         }
         .products .img .add{
 
@@ -669,4 +669,22 @@ margin:10px;
     .row .review-col p{
         padding-bottom:10px;
     
+    }
+    @media only screen and (max-width:650px){
+        .row .review-col{
+            flex-basis:80%;} 
+            .row .review-col p{
+                padding-bottom:10px;
+              font-size:10px;
+            }
+            .row .review-col .fa{
+                 font-size:15px;
+                 padding:0px;
+
+            } 
+            .row .review-col h3{
+                font-size:15px;
+                padding:0px;
+
+           }       
     }
